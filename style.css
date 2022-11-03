@@ -1,0 +1,509 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    border-radius: 5px; 
+    width: 100%; 
+    background:black;
+}
+.my_header{
+    position: relative;
+    height: 5vh;
+    width:1050px;
+}
+.logo{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 22px;
+    color:white;
+    letter-spacing: 5px;
+    cursor:pointer;
+    margin-right:1100px
+    
+}
+.nav_list{
+    position: absolute;
+    top: 1px;
+    left: 250px;
+    display:flex;
+    flex-direction: row;
+}
+
+.nav_item{
+    list-style-type: none;
+    font-size: 20px ;
+    margin-left:80px;
+}
+.nav_link{
+     color:white;
+     /* width: 100px; */
+     padding-left: 35px;
+     font-family: bold;
+    text-decoration: none; 
+     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.nav_link:hover{
+    color:orangered;
+}
+
+
+.nav_link:hover{
+    color:#00cba9;
+}
+.home_section{
+    height: 90vh;
+}
+.name{
+    color:white;
+    letter-spacing: 4px;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-right:940px;
+    
+}
+.content{
+    position: relative;
+    top:100px;
+    left:10px;
+    color:white;
+    line-height: 90px;
+    margin-left: 70px;
+}
+h1{
+    color:white;
+    margin:10px 0 10px;
+    font-size: 60px;
+}
+h3{
+    color:white;
+    font-size: 25px;
+    margin-bottom: 50px;
+    letter-spacing: 4px;
+}
+
+.btn{
+    background-color:#00cba9;
+    color:white;
+    text-decoration: none;
+    border:2px solid transparent;
+    font-weight: bold;
+    padding:13px 30px;
+    border-radius: 30px;
+    transition:2s;
+    
+}
+
+.home-img img{
+    position: absolute;
+    left: 550px;
+    top:-50px;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+.about{
+    height: 100vh;
+    width:40%;
+    padding:35px 15px;
+    position: relative;
+    margin-left: 20px;
+    
+}
+
+.cover img{
+    width: 58%;
+    height:430px;
+    border-radius: 5px;
+    position: absolute;
+    left: 650px;
+}
+/* .my_about_img{
+    /* border: rgba(255, 255, 255, 0.623) 1px solid; */
+
+.about-text{
+    width:550px;
+}
+span{
+    color:#00cba9;
+}
+
+.about-text h2{
+    color:white;
+    font-size: 65px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5{
+    color:white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+.about-text p{
+    color:white;
+    letter-spacing: 1px;
+    line-height: 32px;
+    font-size: 20px;
+    margin-bottom: 45px;
+}
+button{
+    background-color: #00cba9;
+    color:white;
+    text-decoration: none;
+    border:2px solid transparent;
+    font-weight: bold;
+    padding:13px 30px;
+    border-radius: 30px;
+    transition:2s;
+}
+button:hover{
+    background-color: transparent;
+    border:2px solid #00cba9;
+    Cursor:pointer;
+} 
+
+
+.my_skills{
+    height: 130vh;
+    position: relative;
+    width:1070px;
+
+}
+
+
+
+
+
+.service{
+    position: absolute;
+    width: 40%; 
+    height: 500px;
+    color: white;
+    margin-top: 45px;
+    left: 60px;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding-left: 15px;
+    padding-right: 10px;
+    
+   
+
+}
+
+.title h2{
+    color:white;
+    font-size: 35px;
+    margin:30px auto;
+    text-align: center;
+}
+h4{
+    color:white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10px;
+}
+.pra p{
+    color:white;
+    font-size: 20px;
+    line-height: 60px;
+    margin-top: 5px;
+    margin-bottom: 155px;
+}
+.skills_img{
+    position: absolute;
+    top:300px;
+    left: 590px;
+    border-radius: 10px;
+    /* border: #fff 1px solid; */
+}
+
+.contact_me_page{
+    position: relative;
+    height: 140vh;
+    width: 1000px;
+   
+
+}
+.contact-me-title{
+    position: absolute;
+    left: 520px;
+    color:white;
+    font-size: 33px;
+    margin-top:-10px;
+}
+
+.fillin{
+    position:absolute;
+    margin-top: 88px;
+    right: 80px;
+    padding: 30px 80px;
+    padding-top:-10px; 
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    border: 1px white solid;
+    border-radius: 10px;
+    background:rgb(12, 12, 12);
+    width: 60%;
+    height: 70%; 
+    
+}
+.contact-list{
+    position: relative;
+    top:330px;
+    width: 300px;
+    color:#00cba9;
+    /* padding-top: 40px; */
+    left:50px;
+   
+}
+.contact-list-item:hover{
+    color:aqua;
+}
+
+.inputbox input {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 17px;
+    border: #575757  1px solid;
+    width: 60%;
+}
+
+inputbox textarea{
+    padding: 5px;
+    font-size: 17px;
+    border: #575757  5px solid;
+}
+footer{ 
+    position:relative;
+    width: 1000px;
+    height: auto;
+    background:black;
+    top:650px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+footer p:nth-child(1){
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#fff;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+footer p:nth-child(2){
+    font-size: 17px;
+    color:antiquewhite;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+
+}
+.social{
+    display:flex;
+}
+.social a{
+    width: 45px;
+    height:45px;
+    display:flex;
+    align-items: center;
+    background:#00cba9;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 22px;
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+}
+.social a:hover{
+    transition:.3s;
+    transform:scale(1.3)
+}
+.end{
+    position: absolute;
+    color:white;
+    font-size:17px ;
+    bottom:-10px;
+} 
+
+
+
+@media screen and (max-width:576px) and (min-width:400px) {
+    
+    .nav_list{
+        top:-30px;
+        left:430px;
+    }
+    
+    .nav_item{
+        font-size: 15px ;
+    }
+    .nav_link{
+         padding-left: 10px;
+    }
+    
+    .home-img img{
+        position: absolute;
+        left: 450px;
+        top: -60px;
+    }
+    .home-img img{
+        width: 60%;
+    } 
+    
+    .about img{
+        width: 70%;
+        height:430px;
+        left:580px;
+        border-radius: 10px;
+        position: absolute;
+    }
+    
+    .my_about_img{
+        border: rgba(255, 255, 255, 0.623) 1px solid;
+    }
+    .skills_img{
+        position: absolute;
+        left:0px;
+        /* border: #fff 1px solid; */
+    }
+    .skills_img img{
+        width: 280px;
+        position: absolute;
+        left:600px;
+        top:0px;
+
+    }
+    .service{
+        position: absolute;
+        width:fit-content; 
+        height: fit-content;
+        color: white;
+        margin-top: -25px;
+        left: 10px;
+        border-radius: 10px;
+        padding-left: 15px;
+        padding-right: 10px;
+        background-color:transparent;
+    
+    }
+    .title h2{
+        width: 600px;
+        color:#f9004f;
+        font-size: 45px;
+        margin:30px auto;
+        text-align: center;
+    }
+    h4{
+        color:white;
+        font-size: 35px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .pra p{
+        color:white;
+        font-size: 25px;
+        line-height: 36px;
+        margin-top: 15px;
+        margin-bottom: 25px;
+    }
+    
+    .contact_me_page{
+        position: relative;
+        height: 80vh;
+    
+     } 
+    .contact-me-title{
+        width: 500px;
+        position: absolute;
+        left: 520px;
+        color:#f9004f;
+        font-size: 33px;
+        margin-top: 25px;
+    }
+    
+    .fillin{
+        position:absolute;
+        margin-top: 88px;
+        left:100px;
+        padding: 20px 5px;
+        /* padding: 30px 5px; */
+        border-radius: 10px;
+        align-items: center;
+        justify-content: center;
+        border: 1px rgb(196, 22, 22) solid;
+        border-radius: 10px;
+        background:rgb(107, 98, 98);
+        width: 100%;
+        height: 90%; 
+    }
+    
+    .inputbox input {
+        margin-bottom: 10px;
+        padding: 10px;
+        font-size: 27   px;
+        border:orange  1px solid;
+        width: 90%;
+        color: #f9004d;
+        
+    }
+    .contact-list{
+        font-size: bold;
+    }
+    .contact-me-title{
+        position: absolute;
+        left: 320px;
+        color:#00cba9;
+        font-size: 33px;
+        margin-top: 0px;
+    }
+    
+    
+    
+    inputbox textarea{
+        padding: 5px;
+        font-size: 17px;
+        border: #575757  5px solid;
+    }
+    footer{ 
+        position:relative;
+        width:fit-content;
+        height: auto;
+        background:black;
+        top:650px;
+        left:380px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:center;
+    }
+    } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
